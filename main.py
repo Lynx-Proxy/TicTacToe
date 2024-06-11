@@ -6,7 +6,7 @@ gamerunning = True
 inp = None
 
 def printboard(board):
-    print(f"{board[0]} | {board[1]} | {board[2]}")
+    print(f"\n{board[0]} | {board[1]} | {board[2]}")
     print("---------")
     print(board[3] + " | " + board[4] + " | " + board[5])
     print("---------")
